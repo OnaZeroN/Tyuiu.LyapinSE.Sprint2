@@ -45,7 +45,7 @@ namespace Tyuiu.LyapinSE.Sprint2.Task6.V9.Lib
                 nextMonth = m + 1;
             }
 
-            return $"{nextDay}.{nextMonth}";
+            return $"{nextDay:D2}.{nextMonth:D2}";
         }
     }
 }
