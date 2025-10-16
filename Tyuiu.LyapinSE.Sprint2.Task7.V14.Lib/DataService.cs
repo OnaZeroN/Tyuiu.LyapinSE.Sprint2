@@ -6,9 +6,10 @@ namespace Tyuiu.LyapinSE.Sprint2.Task7.V14.Lib
     {
         public bool CheckDotInShadedArea(double x, double y)
         {
-            bool isInCircle = (x * x + y * y) <= 1;
-            bool isInSector = ((x <= 0) && (y >= 0)) && ((y <= 0) && (x >= 0)); 
-            return isInCircle && isInSector;
+            bool isInCircle = (Math.Pow(x, 2) + Math.Pow(y, 2)) <= 1;
+            bool isInShaded = !((x < 0 && y < -x) || (y < 0 && x < 0));
+
+            return isInCircle && isInShaded;
         }
     }
 }
