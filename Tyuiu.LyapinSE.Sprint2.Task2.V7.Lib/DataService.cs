@@ -1,5 +1,4 @@
-﻿using System.Numerics;
-using tyuiu.cources.programming.interfaces.Sprint2;
+﻿using tyuiu.cources.programming.interfaces.Sprint2;
 
 namespace Tyuiu.LyapinSE.Sprint2.Task2.V7.Lib
 {
