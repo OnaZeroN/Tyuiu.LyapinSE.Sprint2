@@ -34,4 +34,9 @@ for (int i = 0; i < res.Length; i++)
     Console.WriteLine($"Результат {i + 1}: {res[i]}");
 }
 
+int x = 5;
+
+int y = (x > 0) && (x < 2) ? x * x : -x;
+
+
 Console.ReadLine();
