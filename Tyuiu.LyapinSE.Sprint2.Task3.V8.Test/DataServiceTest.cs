@@ -10,7 +10,7 @@ namespace Tyuiu.LyapinSE.Sprint2.Task3.V8.Test
         {
             DataService ds = new DataService();
 
-            double x = 0;
+            double x = 5;
 
             Assert.AreEqual(-0.543, ds.Calculate(x));
         }
